@@ -60,3 +60,36 @@
     margin: 2rem 0 2.6rem;
     color: var(--color-light);
 }
+  /*====== media queries (medium)==========*/
+  @media  screen and (max-width:1024px){
+    .sobre__container{
+        grid-template-columns: 1fr;
+        gap:0;
+            }
+    .sobre__mi{
+        width:50%;
+        margin: 2 rem auto 4 rem;
+    }
+    .sobre__content p{
+        margin:1rem 0 1.5rem;
+    }
+}
+
+ /*====== media queries (small)==========*/
+ @media  screen and (max-width:600px){
+   .sobre__mi{
+    width: 65%;
+    margin: 0 auto 3rem;
+   }
+   .sobre__cards{
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+   }
+   .sobre__content{
+    text-align: center;
+    
+   }
+   .sobre__content p{
+    margin: 1.5rem 0;
+   }
+}

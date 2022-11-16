@@ -1,6 +1,6 @@
 import React from 'react'
 import './sobre.css'
-import ME from '../../assets/cafe1.jpg'
+import ME from '../../assets/cafe1.png'
 import {FaAward} from 'react-icons/fa'
 import {GiCoffeeBeans} from 'react-icons/gi'
 import {MdCoffeeMaker} from 'react-icons/md'
@@ -12,7 +12,7 @@ const Sobre = () => {
         <h2> Sobre Mi</h2>
 
         <div className="container sobre__container">
-            <div className="sobre_mi">
+            <div className="sobre__mi">
                 <div className="sobre_mi-image">
                     <img src={ME} alt="yo"/>
                 </div>
@@ -35,7 +35,7 @@ const Sobre = () => {
                     <small>semillas para cada maquina</small>
                 </article>
             </div>
-            <p>The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.</p>
+            <p>Cuando se habla de variedades y tipos de café no estamos hablando de lo mismo. La variedad se refiere al origen y especie del grano que se cosecha y los tipos son las bebidas que se han inventado a lo largo de los años con esos distintos granos. Hoy te explicaremos cuáles son las variedades y tipos de cafés más populares en el mundo.</p>
             <a href='#contact' className='btn btn-primary'>Hablemos</a>
         </div>
         </div>
