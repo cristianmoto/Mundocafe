@@ -7,7 +7,7 @@ import {MdCoffeeMaker} from 'react-icons/md'
 
 const Sobre = () => {
   return (
-    <section>
+    <section id="sobre">
         <h5> Debes saber</h5>
         <h2> Sobre Mi</h2>
 
