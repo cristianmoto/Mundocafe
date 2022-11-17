@@ -37,8 +37,8 @@ const Services = () => {
             </li>
           </ul>
         </article>
-      {/*   Termina UI/UX */}
-      <article className="service">
+        {/*   Termina UI/UX */}
+        <article className="service">
           <div className="service__head">
             <h3>WEB DEVELOPMENT</h3>
           </div>
@@ -71,9 +71,9 @@ const Services = () => {
           </ul>
         </article>
 
-       {/*  TERMINA WEB DEVELOPMENT */}
+        {/*  TERMINA WEB DEVELOPMENT */}
 
-       <article className="service">
+        <article className="service">
           <div className="service__head">
             <h3>CONTENIDOS</h3>
           </div>
@@ -101,7 +101,7 @@ const Services = () => {
             </li>
           </ul>
         </article>
-       {/*  TERMINA CONTENIDOS */}
+        {/*  TERMINA CONTENIDOS */}
       </div>
     </section>
   );
